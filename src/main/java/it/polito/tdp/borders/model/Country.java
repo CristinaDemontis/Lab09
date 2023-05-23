@@ -23,7 +23,14 @@ public class Country {
 
 	public String getStateNme() {
 		return StateNme;
+	}
+
+	@Override
+	public String toString() {
+		return "Country [StateAbb=" + StateAbb + ", CCode=" + CCode + ", StateNme=" + StateNme + "]";
 	} 
+	
+	
 	
 	
 	
